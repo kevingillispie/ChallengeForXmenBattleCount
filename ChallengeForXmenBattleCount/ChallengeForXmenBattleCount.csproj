@@ -75,10 +75,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BattleCount.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BattleCount.aspx.cs">
+      <DependentUpon>BattleCount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BattleCount.aspx.designer.cs">
+      <DependentUpon>BattleCount.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
